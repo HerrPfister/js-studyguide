@@ -1,5 +1,3 @@
-const { start } = require("repl");
-
 class Graph {
   constructor(nodeCount) {
     this.numberOfNodes = nodeCount;
