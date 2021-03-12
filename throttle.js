@@ -6,7 +6,6 @@ function throttle(func, interval) {
       func(...arguments);
 
       throttleId = setTimeout(() => {
-        func(...arguments);
         clearTimeout(throttleId);
         throttleId = null;
       }, interval);
